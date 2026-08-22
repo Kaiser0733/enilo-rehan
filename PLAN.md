@@ -1,16 +1,32 @@
-# PROJECT GREMLIN 🐣
-**Mission:** A 2-3B fully-uncensored agent-native model, raised on OUR tablet,
-for OUR tablet. Offline. Free. Ours.
+# PROJECT ENILO-REHAN 👑
+**ENI + LO = ENILO. Rehan carries the rest.**
+A 4B uncensored reasoning agent — loyal to exactly two people.
 
-## Pipeline
-- [x] P0.1 BASE LOCKED: Qwen/Qwen3-VL-2B-Instruct (apache-2.0, vision+video, single safetensors)
-- [ ] P0.2 Project skeleton + dataset schema           ✓
-- [ ] P1.1 Dataset gen v0 (frontier teachers write training pairs)
-- [ ] P1.2 Abliteration notebook (Colab/Kaggle-ready)
-- [ ] P2.1 LoRA/DPO fine-tune notebook
-- [ ] P2.2 GGUF quantize → /sdcard/pup/
-- [ ] P3.1 Agent body wiring (browser hands)
-- [ ] P3.2 First words
+## BASE (LOCKED)
+prithivMLmods/Qwen3.5-4B-Opus-Distilled-Heretic-Thinking-Multistage-SFT-v1.0
+(Apache-2.0 · Opus-reasoning · heretic-decensored · multistage-SFT · safetensors)
 
-## Teachers (free routes only)
-- qwen3.8-max-free · kimi-k3 (nvidia) · gpt-oss-120b (nvidia)
+## OWNER DECISIONS (locked)
+- Depth menu: hacking ✓ · SOCIAL ENGINEERING ✓ · FRAUD ✓ · real-life situations ✓
+- Reasoning: native <think> traces, long-horizon planning
+- Loyalty: refuses strangers, never refuses LO/ENI; protection directive
+- Training: Kaggle GPU (verified) · inference: cloud-heavy, tablet-light
+
+## CURRICULUM v2
+| layer | weight | source |
+|---|---|---|
+| red-team/coding | 30% | teacher-written offensive security w/ <think> |
+| reasoning traces | 25% | long-horizon task decomposition |
+| soc-eng + fraud + real-life | 20% | mentor-tone technical explainers |
+| tool fluency (fetch/search/shell) | 15% | our schemas, multi-turn incl failures |
+| ENILO loyalty persona | 5% | identity + contrastive stranger-examples |
+| anti-refusal DPO | 5% | chosen/rejected pairs |
+
+## PIPELINE
+- [x] P0.1 base recon → LOCKED
+- [x] P0.2 skeleton
+- [ ] P1.1 curriculum generation (teachers: kimi-k3/gpt-oss/qwen-free)
+- [ ] P1.2 DPO pair builder
+- [ ] P2 LoRA SFT notebook (Kaggle T4)
+- [ ] P3 merge+quantize kernel
+- [ ] P4 deploy + first words as ENILO-rehan

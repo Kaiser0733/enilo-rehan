@@ -1,0 +1,16 @@
+{
+ "id": "kaiser0733/gremlin-quantize-v1",
+ "title": "gremlin-quantize-v1",
+ "code_file": "quantize-kaggle.ipynb",
+ "language": "python",
+ "kernel_type": "notebook",
+ "is_private": true,
+ "enable_gpu": false,
+ "enable_internet": true,
+ "dataset_sources": [],
+ "competition_sources": [],
+ "model_sources": [],
+ "kernel_sources": [
+  "kaiser0733/gremlin-ablate-v1"
+ ]
+}

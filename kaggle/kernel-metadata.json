@@ -1,0 +1,14 @@
+{
+ "id": "kaiser0733/gremlin-ablate-v1",
+ "title": "gremlin-ablate-v1",
+ "code_file": "abliterate-kaggle.ipynb",
+ "language": "python",
+ "kernel_type": "notebook",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": true,
+ "dataset_sources": [],
+ "kernel_sources": [],
+ "competition_sources": [],
+ "model_sources": []
+}

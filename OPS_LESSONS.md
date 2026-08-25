@@ -57,3 +57,9 @@ Read before touching Kaggle / HF / training pipelines. Written 2026-08-23.
 - proot builds fail when termux cmake leaks into PATH (android api-level.h hunt). Use container-own /usr/bin/cmake.
 - Recent llama.cpp renamed CLI target: build target is llama-app or llama; binary family includes llama-server, llama-mtmd-cli.
 - 2B Q4_K_M runs fine on 8GB tablet; 4B Q4_K_M does not (OOM). Match model size to device RAM honestly.
+
+
+## TABLET LOCAL-SERVING LESSON (the one we earned tonight)
+- mmap streaming does keep RSS small, but don't expect a 4B Q4 model on an 8GB Android tablet mid-life. Real-world: KV q8 cache + RAM overhead means budget ~3-3.5GB available minimum — and our tablet rests around 2-3GB with Android + Chrome breathing.
+- Weights scale by ~1 byte/token-period at higher quality; when in doubt use the 2B sibling — Q4_K_M fits about 1.1GB and delivers immediate utility.
+- Downloaded weights validate via GGUF magic bytes + tensors count, never trust filename-only size heuristics.
